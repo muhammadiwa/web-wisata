@@ -214,7 +214,7 @@
                 <div class="description">
                   <h3>PT Nomads ID</h3>
                   <p>
-                    0899 8501 7888
+                    0899 8501 7889
                     <br />
                     Bank HSBC
                   </p>

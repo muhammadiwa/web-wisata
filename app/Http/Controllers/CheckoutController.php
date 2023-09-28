@@ -15,9 +15,7 @@ class CheckoutController extends Controller
     {
         $item = Transaction::with(['details','travel_package','user'])->findOrFail($id);
 
-        return view('pages.checkout',[
-            'item' => $item
-        ]);
+        return view('pages.checkout', compact('item'));
     }
 
     public function process(Request $request, $id)
